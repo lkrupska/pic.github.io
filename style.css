@@ -1,0 +1,56 @@
+*{
+    margin:0;
+}
+body{
+    background-image: url(ban.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    padding: 10px 5%;
+    background-color:white;
+}
+header>*{
+    display: inline-block;
+    width:450px;
+}
+.pustota{
+    width:10%;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    margin:0 10px;
+}
+.banner{
+    padding: 20% 5%;
+    color: white;
+    font-size: 30px;
+}
+.post{
+    padding: 10px 5%;
+    text-align: center;
+    background-color:white;
+}
+.post>*{
+    display: inline-block;
+    width:450px;
+    font-size:30px;
+    vertical-align: middle;
+}
+.razryv{
+    height:700px;
+    .post{
+    padding: 10px 5%;
+    text-align: center;
+    background-color:white;
+}
+
+
+footer{
+    background-color:black;
+    padding:10px 0;
+    text-align: center;
+    color:white;
+}
